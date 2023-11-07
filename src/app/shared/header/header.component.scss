@@ -1,0 +1,68 @@
+.container{
+    // width: 1380px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    .mainContainer{
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 32px;
+        .left{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #FFFFFF;
+            gap: 32px;
+            .center{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .text{
+                    color: var(--Neutrals, #FFF);
+                    /* Montserrat/Semibold/14px */
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 32px;
+            .text{
+                color: var(--Neutrals, #FFF);
+                    /* Montserrat/Semibold/14px */
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+            }
+            .btnSignup{
+                color: var(--Blackish-Green, #121);
+                text-align: center;
+
+                /* Montserrat/Semibold/14px */
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                display: flex;
+                padding: 10px 24px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                flex: 1 0 0;
+                align-self: stretch;
+                border-radius: 8px;
+background: var(--Neutrals, #FFF);
+            }
+        }
+    }
+}
