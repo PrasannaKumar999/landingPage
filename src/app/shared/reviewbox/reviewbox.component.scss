@@ -1,0 +1,100 @@
+.container{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    /* overflow: hidden; */
+    overflow-x: auto;
+    padding-bottom: 1px;
+}
+.reviewBox{
+    border-radius: 20px;
+background: var(--Neutrals, #FFF);
+box-shadow: 2px 4px 16px 0px rgba(17, 34, 17, 0.10);
+display: inline-flex;
+padding: 24px;
+flex-direction: column;
+// align-items: center;
+// gap: 40px;
+width: 38%;
+margin-top: 40px;
+.reviewBoxHeading{
+    color: var(--Blackish-Green, #121);
+
+/* TradeGothic/Bold/24px */
+font-family: TradeGothic LT Extended;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+height: 80px;
+}
+.reviewBoxDescription{
+    overflow: hidden;
+color: var(--Blackish-Green, #121);
+text-overflow: ellipsis;
+// white-space: nowrap;
+
+/* Montserrat/Medium/14px */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+opacity: 0.5;
+height: 37px;
+margin-top: 16px;
+}
+.textViewMore{
+    color: var(--Blackish-Green, #121);
+text-align: right;
+
+/* TradeGothic/Bold/14px */
+font-family: TradeGothic LT Extended;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 16px;
+}
+.rating{
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+.textName{
+    color: var(--Blackish-Green, #121);
+
+/* TradeGothic/Bold/14px */
+font-family: TradeGothic LT Extended;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 20px;
+text-align: left;
+}
+.textStudios{
+    color: var(--Blackish-Green, #121);
+
+    /* Montserrat/Medium/12px */
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.textGoogle{
+    color: var(--Blackish-Green, #121);
+
+/* TradeGothic/Bold/12px */
+font-family: TradeGothic LT Extended;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+opacity: 0.4;
+}
+.imageContainer{
+    margin-top: 40px;
+}
+}

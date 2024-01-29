@@ -1,8 +1,75 @@
-<div class="imageContainer">
-    <!-- <img src="assets/banner.png" alt=""> -->
-    <div class="text">
-        <div class="text1">Helping Others</div>
-        <div class="text2">Live & Travel</div>
-        <div class="text3">Special offers to suit your plan</div>
+    <div class="imageContainer">
+        <div class="text">
+            <div class="text1">Helping Others</div>
+            <div class="text2">Live & Travel</div>
+            <div class="text3">Special offers to suit your plan</div>
+        </div>
     </div>
-</div>
+    <div class="planningBox">
+        <div class="box">
+            <div class="boxText">
+                <div class="text1"> Plan your perfect trip</div>
+                <div class="text2">Search Flights & Places Hire to our most popular destinations</div>
+            </div>
+            <div class="text3">
+                See more places
+            </div>
+        </div>
+        <div class="detailsBox">
+            <div class="container" *ngFor="let a of [1,2,3,4,5,6,7,8,9]">
+                <div class="image">
+                    <img src="assets/image.jpg" alt="">
+                </div>
+                <div class="rightContainer">
+                    <div>
+                        India, Hyderabad
+                    </div>
+                    <div>
+                        <span>Flights</span>
+                        <span>.Hotels</span>
+                        <span>.Resorts</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="third">
+            <div class="boxContainer1">
+                <div class="imageText">
+                    <div class="heading">Flights</div>
+                    <div class="subHeading">Search Flights & Places Hire to our most popular destinations</div>
+                    <div class="imagebtn">
+                        <div>Show Flights</div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxContainer2">
+                <div class="imageText">
+                    <div class="heading">Hotels</div>
+                    <div class="subHeading">Search hotels & Places Hire to our most popular destinations</div>
+                    <div class="imagebtn">
+                        <div>Show Hotels</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviewSection">
+        <div class="reviewHead">
+            <div class="reviewRow">
+                    <div class="textReview">Review</div>
+                    <div class="textDesc">What people says about Golobe facilities</div>
+            </div>
+            <div>
+                <div>see all</div>
+            </div>
+        </div>
+        <div>
+            <app-reviewbox></app-reviewbox>
+        </div>
+        <div>
+            <app-subscribe-box></app-subscribe-box>
+        </div>
+    </div>
